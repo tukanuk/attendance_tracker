@@ -2,38 +2,62 @@ from os.path import isdir
 import pandas as pd
 import argparse
 import os
+import simplelogging
+
+# Setup the logging
+log = simplelogging.get_logger(
+    logger_level=simplelogging.DEBUG,
+    console=True,
+    console_level=simplelogging.DEBUG,
+    file_name="logs/log.log",
+    file_level=simplelogging.DEBUG,
+)
+log.info("Starting logging")
 
 
 def main():
     """Main function"""
-    filePath = command_line_parser()
-    fileList = file_processor(filePath)
 
-    print()
-    print(filePath)
-    print(fileList)
-    print()
+    filePath = command_line_parser()
+    filePath, fileList = file_processor(filePath)
+
+    log.info("path: %s", filePath)
+    log.info("files: %s", fileList)
 
     df = fileOpen(filePath, fileList)
+
+    print(df)
 
 
 def fileOpen(filePath, fileList):
     """Opens a file or directory of .csv files"""
     df = pd.DataFrame()
     for item in fileList:
-        data = pd.read_csv(f"{filePath}/{item}")
-        df2 = pd.DataFrame(
-            data, columns=["Tenant UUID", "Hour", "Host Name", "Host Units"]
-        )
-        df = df.append(df2, ignore_index=True)
+        col_name = item.split("_")[0]
+        data = pd.read_csv(f"{filePath}/{item}", names=["Email"])
+        # data =
+        # log.debug("Data: %s", data)
+        # df2 = pd.DataFrame(data, columns=["Email"])
+        # log.debug("%s", df.dtypes)
+        # new_df = df.assign(f"{col_name}"="Yes")
+        data[f"{col_name}"] = True
+        log.info(data)
+        # df[f"{col_name}"] = ["Yes", "Yes", "Yes", "Yes"]
+        df = df.append(data, ignore_index=True)
 
-    df = df.rename(columns={"Host Units": "HHU"})
+    # df["Email"] = df.groupby("Email")["2021-1102"].ffill()
+    df1 = df.groupby("Email").ffill().drop_duplicates()
+    log.info("GROUP IT:\n %s", df1)
+
+    # df = df.rename(columns={"Host Units": "HHU"})
 
     # Drop the Summary Rows
-    df = df.dropna()
+    # df = df.dropna()
 
     # Convert to date
-    df["Hour"] = pd.to_datetime(df["Hour"], format="%Y-%m-%d %H:%M:%S")
+    # df["Hour"] = pd.to_datetime(df["Hour"], format="%Y-%m-%d %H:%M:%S")
+
+    log.info("Dataframe:\n %s", df)
 
     return df
 
@@ -69,29 +93,34 @@ def command_line_parser():
     # parser.add_argument("-hu", "--hostunits", required=True,
     #                     help="The account host unit limit")
     args = parser.parse_args()
-    print(f"Here are the args: {args}")
+    log.debug(f"Here are the args: {args}")
 
     filePath = args.raw_data_file_or_folder
 
-    print(filePath == "data/2021-1102_Rogers_Cohort_1.csv")
+    # assert filePath == "data/2021-1102_Customer_Cohort_1.csv"
 
-    print(f"The file path is: {filePath}")
+    log.info(f"The file path is: {filePath}")
+
     return filePath
 
 
 def file_processor(filePath):
     """builds a list of the files to be processed"""
-    print(f"file_processor: {filePath} of {type(filePath)}")
+
+    log.debug(f"file_processor: {filePath} of {type(filePath)}")
+
     fileList = []
+
     if os.path.isfile(filePath):
+        log.debug("Single file")
         filePath, fileName = os.path.split(filePath)
         fileList = [fileName]
     elif os.path.isdir(filePath):
-        print("Adding all .csv files in directory")
+        log.info("Adding .csv files in %s", filePath)
         with os.scandir(filePath) as dirs:
             for entry in dirs:
                 if entry.name.endswith(".csv"):
-                    # print(entry.name)
+                    # print(entry.name)x
                     fileList.append(entry.name)
         if len(fileList) == 0:
             raise Exception("No .csv files in this directory")
@@ -99,7 +128,7 @@ def file_processor(filePath):
     else:
         raise Exception("Couldn't find a valid file from the path provided")
 
-    return fileList
+    return filePath, fileList
 
 
 if __name__ == "__main__":
