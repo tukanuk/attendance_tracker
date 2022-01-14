@@ -32,6 +32,7 @@ def main():
 def fileOpen(filePath, fileList):
     """Opens a file or directory of .csv files"""
     df = pd.DataFrame()
+    df["Email"] = ""
     for item in fileList:
         col_name = item.split("_")[0]
         data = pd.read_csv(f"{filePath}/{item}", names=["Email"])
@@ -43,11 +44,25 @@ def fileOpen(filePath, fileList):
         data[f"{col_name}"] = True
         log.info(data)
         # df[f"{col_name}"] = ["Yes", "Yes", "Yes", "Yes"]
-        df = df.append(data, ignore_index=True)
+
+        print("******")
+        for index, row in data.iterrows():
+            print(row["Email"])
+
+            if df["Email"].str.contains(row["Email"], regex=False).any():
+                print("match")
+                print(df.loc[df["Email"] == row["Email"]])
+                (df.loc[df["Email"] == row["Email"]])[col_name] = True 
+            else:
+                print("NO MATCH")
+                df = df.append(row)
+        print("******")
+
+        # df = df.append(data, ignore_index=True)
 
     # df["Email"] = df.groupby("Email")["2021-1102"].ffill()
-    df1 = df.groupby("Email").ffill().drop_duplicates()
-    log.info("GROUP IT:\n %s", df1)
+    # df1 = df.groupby("Email").ffill().drop_duplicates()
+    # log.info("GROUP IT:\n %s", df1)
 
     # df = df.rename(columns={"Host Units": "HHU"})
 

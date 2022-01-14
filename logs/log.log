@@ -1154,3 +1154,520 @@ Index: []
 5  first.last6@gmail.com       NaN      True
 6  first.last5@gmail.com       NaN      True
 7  first.last2@gmail.com       NaN      True
+2022-01-14 06:10:50,597 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:10:50,598 [DEBUG   ] attendance_tracker.py(102):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:10:50,598 [INFO    ] attendance_tracker.py(108):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:10:50,598 [DEBUG   ] attendance_tracker.py(116):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:10:50,598 [DEBUG   ] attendance_tracker.py(121):file_processor       :: Single file
+2022-01-14 06:10:50,598 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:10:50,598 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:10:50,599 [INFO    ] attendance_tracker.py( 44):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:10:51,894 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:10:51,894 [DEBUG   ] attendance_tracker.py(102):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:10:51,894 [INFO    ] attendance_tracker.py(108):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:10:51,894 [DEBUG   ] attendance_tracker.py(116):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:10:51,894 [DEBUG   ] attendance_tracker.py(121):file_processor       :: Single file
+2022-01-14 06:10:51,894 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:10:51,894 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:10:51,895 [INFO    ] attendance_tracker.py( 44):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:11:09,465 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:11:09,465 [DEBUG   ] attendance_tracker.py(102):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:11:09,465 [INFO    ] attendance_tracker.py(108):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:11:09,465 [DEBUG   ] attendance_tracker.py(116):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:11:09,465 [DEBUG   ] attendance_tracker.py(121):file_processor       :: Single file
+2022-01-14 06:11:09,466 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:11:09,466 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:11:09,467 [INFO    ] attendance_tracker.py( 44):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:11:09,489 [INFO    ] attendance_tracker.py( 56):fileOpen             :: GROUP IT:
+    2021-1102
+0       True
+2022-01-14 06:11:09,492 [INFO    ] attendance_tracker.py( 66):fileOpen             :: Dataframe:
+                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:14:32,726 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:14:32,726 [DEBUG   ] attendance_tracker.py(104):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:14:32,726 [INFO    ] attendance_tracker.py(110):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:14:32,727 [DEBUG   ] attendance_tracker.py(118):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:14:32,727 [DEBUG   ] attendance_tracker.py(123):file_processor       :: Single file
+2022-01-14 06:14:32,727 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:14:32,727 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:14:32,728 [INFO    ] attendance_tracker.py( 44):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:16:52,414 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:16:52,415 [DEBUG   ] attendance_tracker.py(105):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:16:52,415 [INFO    ] attendance_tracker.py(111):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:16:52,415 [DEBUG   ] attendance_tracker.py(119):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:16:52,415 [DEBUG   ] attendance_tracker.py(124):file_processor       :: Single file
+2022-01-14 06:16:52,415 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:16:52,415 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:16:52,416 [INFO    ] attendance_tracker.py( 44):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:17:03,163 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:17:03,163 [DEBUG   ] attendance_tracker.py(105):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:17:03,163 [INFO    ] attendance_tracker.py(111):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:17:03,163 [DEBUG   ] attendance_tracker.py(119):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:17:03,163 [DEBUG   ] attendance_tracker.py(124):file_processor       :: Single file
+2022-01-14 06:17:03,164 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:17:03,164 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:17:03,165 [INFO    ] attendance_tracker.py( 44):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:17:07,983 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:17:07,983 [DEBUG   ] attendance_tracker.py(105):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:17:07,983 [INFO    ] attendance_tracker.py(111):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:17:07,984 [DEBUG   ] attendance_tracker.py(119):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:17:07,984 [DEBUG   ] attendance_tracker.py(124):file_processor       :: Single file
+2022-01-14 06:17:07,984 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:17:07,984 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:17:07,985 [INFO    ] attendance_tracker.py( 44):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:17:57,231 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:17:57,232 [DEBUG   ] attendance_tracker.py(105):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:17:57,232 [INFO    ] attendance_tracker.py(111):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:17:57,232 [DEBUG   ] attendance_tracker.py(119):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:17:57,232 [DEBUG   ] attendance_tracker.py(124):file_processor       :: Single file
+2022-01-14 06:17:57,232 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:17:57,232 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:17:57,233 [INFO    ] attendance_tracker.py( 44):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:18:17,654 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:18:17,655 [DEBUG   ] attendance_tracker.py(105):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:18:17,655 [INFO    ] attendance_tracker.py(111):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:18:17,655 [DEBUG   ] attendance_tracker.py(119):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:18:17,655 [DEBUG   ] attendance_tracker.py(124):file_processor       :: Single file
+2022-01-14 06:18:17,655 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:18:17,655 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:18:17,656 [INFO    ] attendance_tracker.py( 44):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:18:52,914 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:18:52,915 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:18:52,915 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:18:52,915 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:18:52,915 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:18:52,915 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:18:52,915 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:18:52,917 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:21:17,783 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:21:17,783 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:21:17,784 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:21:17,784 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:21:17,784 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:21:17,784 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:21:17,784 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:21:17,785 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:21:45,535 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:21:45,535 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:21:45,536 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:21:45,536 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:21:45,536 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:21:45,536 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:21:45,536 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:21:45,537 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:23:19,636 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:23:19,636 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:23:19,636 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:23:19,636 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:23:19,636 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:23:19,637 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:23:19,637 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:23:19,638 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:26:16,681 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:26:16,682 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:26:16,682 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:26:16,682 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:26:16,682 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:26:16,682 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:26:16,682 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:26:16,684 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:26:16,689 [INFO    ] attendance_tracker.py( 70):fileOpen             :: Dataframe:
+                    Email 2021-1102
+0  first.last1@gmail.com      True
+1  first.last6@gmail.com      True
+2  first.last5@gmail.com      True
+3  first.last2@gmail.com      True
+2022-01-14 06:27:13,455 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:27:13,456 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:27:13,456 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:27:13,456 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:27:13,456 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:27:13,456 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:27:13,456 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:27:13,457 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:27:13,462 [INFO    ] attendance_tracker.py( 70):fileOpen             :: Dataframe:
+                    Email 2021-1102
+0  first.last1@gmail.com      True
+1  first.last6@gmail.com      True
+2  first.last5@gmail.com      True
+3  first.last2@gmail.com      True
+2022-01-14 06:27:49,729 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:27:49,730 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:27:49,730 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:27:49,730 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:27:49,730 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:27:49,730 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:27:49,730 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:27:49,731 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:27:49,736 [INFO    ] attendance_tracker.py( 70):fileOpen             :: Dataframe:
+                    Email 2021-1102
+0  first.last1@gmail.com      True
+1  first.last6@gmail.com      True
+2  first.last5@gmail.com      True
+3  first.last2@gmail.com      True
+2022-01-14 06:28:02,726 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:28:02,727 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:28:02,727 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:28:02,727 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:28:02,727 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:28:02,727 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:28:02,727 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:28:02,729 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:28:02,746 [INFO    ] attendance_tracker.py( 70):fileOpen             :: Dataframe:
+                    Email 2021-1102
+0  first.last1@gmail.com      True
+1  first.last6@gmail.com      True
+2  first.last5@gmail.com      True
+3  first.last2@gmail.com      True
+2022-01-14 06:28:10,020 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:28:10,020 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:28:10,020 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:28:10,020 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:28:10,021 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:28:10,021 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:28:10,021 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:28:10,022 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:28:10,027 [INFO    ] attendance_tracker.py( 70):fileOpen             :: Dataframe:
+                    Email 2021-1102
+0  first.last1@gmail.com      True
+1  first.last6@gmail.com      True
+2  first.last5@gmail.com      True
+3  first.last2@gmail.com      True
+2022-01-14 06:29:16,051 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:29:16,052 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:29:16,052 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:29:16,052 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:29:16,052 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:29:16,052 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:29:16,052 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:29:16,053 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:31:49,452 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:31:49,453 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:31:49,453 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:31:49,453 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:31:49,453 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:31:49,453 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:31:49,453 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:31:49,455 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:31:49,463 [INFO    ] attendance_tracker.py( 70):fileOpen             :: Dataframe:
+                    Email 2021-1102
+0  first.last1@gmail.com      True
+1  first.last6@gmail.com      True
+2  first.last5@gmail.com      True
+3  first.last2@gmail.com      True
+2022-01-14 06:32:14,535 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:32:14,535 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:32:14,535 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:32:14,536 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:32:14,536 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:32:14,536 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:32:14,536 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:32:14,537 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:32:14,542 [INFO    ] attendance_tracker.py( 70):fileOpen             :: Dataframe:
+                    Email 2021-1102
+0  first.last1@gmail.com      True
+1  first.last6@gmail.com      True
+2  first.last5@gmail.com      True
+3  first.last2@gmail.com      True
+2022-01-14 06:32:29,273 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:32:29,274 [DEBUG   ] attendance_tracker.py(106):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:32:29,274 [INFO    ] attendance_tracker.py(112):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:32:29,274 [DEBUG   ] attendance_tracker.py(120):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:32:29,274 [DEBUG   ] attendance_tracker.py(125):file_processor       :: Single file
+2022-01-14 06:32:29,274 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:32:29,274 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:32:29,275 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:32:29,280 [INFO    ] attendance_tracker.py( 70):fileOpen             :: Dataframe:
+                    Email 2021-1102
+0  first.last1@gmail.com      True
+1  first.last6@gmail.com      True
+2  first.last5@gmail.com      True
+3  first.last2@gmail.com      True
+2022-01-14 06:33:08,253 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:33:08,254 [DEBUG   ] attendance_tracker.py(108):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:33:08,254 [INFO    ] attendance_tracker.py(114):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:33:08,254 [DEBUG   ] attendance_tracker.py(122):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:33:08,254 [DEBUG   ] attendance_tracker.py(127):file_processor       :: Single file
+2022-01-14 06:33:08,254 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:33:08,254 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:33:08,256 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:33:08,261 [INFO    ] attendance_tracker.py( 72):fileOpen             :: Dataframe:
+                    Email 2021-1102
+0  first.last1@gmail.com      True
+1  first.last6@gmail.com      True
+2  first.last5@gmail.com      True
+3  first.last2@gmail.com      True
+2022-01-14 06:33:40,104 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:33:40,105 [DEBUG   ] attendance_tracker.py(108):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:33:40,105 [INFO    ] attendance_tracker.py(114):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:33:40,105 [DEBUG   ] attendance_tracker.py(122):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:33:40,105 [DEBUG   ] attendance_tracker.py(127):file_processor       :: Single file
+2022-01-14 06:33:40,105 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:33:40,105 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:33:40,107 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+4  first.last1@gmail.com       True
+2022-01-14 06:33:40,122 [INFO    ] attendance_tracker.py( 72):fileOpen             :: Dataframe:
+                    Email 2021-1102
+0  first.last1@gmail.com      True
+1  first.last6@gmail.com      True
+2  first.last5@gmail.com      True
+3  first.last2@gmail.com      True
+4  first.last1@gmail.com      True
+2022-01-14 06:34:37,816 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:34:37,816 [DEBUG   ] attendance_tracker.py(109):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:34:37,817 [INFO    ] attendance_tracker.py(115):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:34:37,817 [DEBUG   ] attendance_tracker.py(123):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:34:37,817 [DEBUG   ] attendance_tracker.py(128):file_processor       :: Single file
+2022-01-14 06:34:37,817 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:34:37,817 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:34:37,818 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+4  first.last1@gmail.com       True
+2022-01-14 06:34:37,825 [INFO    ] attendance_tracker.py( 73):fileOpen             :: Dataframe:
+                    Email  2021-1102
+0  first.last1@gmail.com        1.0
+1  first.last6@gmail.com        1.0
+2  first.last5@gmail.com        1.0
+3  first.last2@gmail.com        1.0
+2022-01-14 06:35:15,453 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:35:15,454 [DEBUG   ] attendance_tracker.py(109):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:35:15,454 [INFO    ] attendance_tracker.py(115):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:35:15,454 [DEBUG   ] attendance_tracker.py(123):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:35:15,454 [DEBUG   ] attendance_tracker.py(128):file_processor       :: Single file
+2022-01-14 06:35:15,454 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:35:15,454 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:35:15,456 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+4  first.last1@gmail.com       True
+2022-01-14 06:35:15,463 [INFO    ] attendance_tracker.py( 73):fileOpen             :: Dataframe:
+                    Email  2021-1102
+0  first.last1@gmail.com        1.0
+1  first.last6@gmail.com        1.0
+2  first.last5@gmail.com        1.0
+3  first.last2@gmail.com        1.0
+2022-01-14 06:39:52,494 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:39:52,495 [DEBUG   ] attendance_tracker.py(110):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:39:52,495 [INFO    ] attendance_tracker.py(116):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:39:52,495 [DEBUG   ] attendance_tracker.py(124):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:39:52,495 [DEBUG   ] attendance_tracker.py(129):file_processor       :: Single file
+2022-01-14 06:39:52,495 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:39:52,495 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:39:52,497 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+4  first.last1@gmail.com       True
+2022-01-14 06:39:52,519 [INFO    ] attendance_tracker.py( 74):fileOpen             :: Dataframe:
+                    Email  2021-1102
+0  first.last1@gmail.com        1.0
+1  first.last6@gmail.com        1.0
+2  first.last5@gmail.com        1.0
+3  first.last2@gmail.com        1.0
+2022-01-14 06:40:39,981 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:40:39,982 [DEBUG   ] attendance_tracker.py(110):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 06:40:39,982 [INFO    ] attendance_tracker.py(116):command_line_parser  :: The file path is: data
+2022-01-14 06:40:39,982 [DEBUG   ] attendance_tracker.py(124):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 06:40:39,982 [INFO    ] attendance_tracker.py(133):file_processor       :: Adding .csv files in data
+2022-01-14 06:40:39,983 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:40:39,983 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:40:39,985 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1103
+0  first.last1@gmail.com       True
+1  first.last4@gmail.com       True
+2  first.last3@gmail.com       True
+3  first.last2@gmail.com       True
+2022-01-14 06:40:39,994 [INFO    ] attendance_tracker.py( 45):fileOpen             ::                    Email  2021-1102
+0  first.last1@gmail.com       True
+1  first.last6@gmail.com       True
+2  first.last5@gmail.com       True
+3  first.last2@gmail.com       True
+4  first.last1@gmail.com       True
+2022-01-14 06:40:40,006 [INFO    ] attendance_tracker.py( 74):fileOpen             :: Dataframe:
+                    Email  2021-1103  2021-1102
+0  first.last1@gmail.com        1.0        NaN
+1  first.last4@gmail.com        1.0        NaN
+2  first.last3@gmail.com        1.0        NaN
+3  first.last2@gmail.com        1.0        NaN
+1  first.last6@gmail.com        NaN        1.0
+2  first.last5@gmail.com        NaN        1.0
+2022-01-14 06:41:31,505 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:41:31,506 [DEBUG   ] attendance_tracker.py(110):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 06:41:31,506 [INFO    ] attendance_tracker.py(116):command_line_parser  :: The file path is: data
+2022-01-14 06:41:31,506 [DEBUG   ] attendance_tracker.py(124):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 06:41:31,506 [INFO    ] attendance_tracker.py(133):file_processor       :: Adding .csv files in data
+2022-01-14 06:41:31,506 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:41:31,506 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:41:31,508 [INFO    ] attendance_tracker.py( 45):fileOpen             ::    Email  2021-1103
+0   blue       True
+1    red       True
+2  green       True
+3   pink       True
+2022-01-14 06:41:31,515 [INFO    ] attendance_tracker.py( 45):fileOpen             ::     Email  2021-1102
+0    blue       True
+1     red       True
+2   green       True
+3  orange       True
+4  purple       True
+5    blue       True
+2022-01-14 06:41:31,527 [INFO    ] attendance_tracker.py( 74):fileOpen             :: Dataframe:
+     Email  2021-1103  2021-1102
+0    blue        1.0        NaN
+1     red        1.0        NaN
+2   green        1.0        NaN
+3    pink        1.0        NaN
+3  orange        NaN        1.0
+4  purple        NaN        1.0
+2022-01-14 06:44:47,360 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:44:47,361 [DEBUG   ] attendance_tracker.py(111):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 06:44:47,361 [INFO    ] attendance_tracker.py(117):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 06:44:47,361 [DEBUG   ] attendance_tracker.py(125):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 06:44:47,361 [DEBUG   ] attendance_tracker.py(130):file_processor       :: Single file
+2022-01-14 06:44:47,361 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:44:47,361 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:44:47,363 [INFO    ] attendance_tracker.py( 45):fileOpen             ::     Email  2021-1102
+0    blue       True
+1     red       True
+2   green       True
+3  orange       True
+4  purple       True
+5    blue       True
+2022-01-14 06:44:47,374 [INFO    ] attendance_tracker.py( 75):fileOpen             :: Dataframe:
+     Email  2021-1102
+0    blue        1.0
+1     red        1.0
+2   green        1.0
+3  orange        1.0
+4  purple        1.0
+2022-01-14 06:45:18,251 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 06:45:18,252 [DEBUG   ] attendance_tracker.py(111):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 06:45:18,252 [INFO    ] attendance_tracker.py(117):command_line_parser  :: The file path is: data
+2022-01-14 06:45:18,252 [DEBUG   ] attendance_tracker.py(125):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 06:45:18,252 [INFO    ] attendance_tracker.py(134):file_processor       :: Adding .csv files in data
+2022-01-14 06:45:18,252 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 06:45:18,252 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 06:45:18,254 [INFO    ] attendance_tracker.py( 45):fileOpen             ::    Email  2021-1103
+0   blue       True
+1    red       True
+2  green       True
+3   pink       True
+2022-01-14 06:45:18,270 [INFO    ] attendance_tracker.py( 45):fileOpen             ::     Email  2021-1102
+0    blue       True
+1     red       True
+2   green       True
+3  orange       True
+4  purple       True
+5    blue       True
+2022-01-14 06:45:18,284 [INFO    ] attendance_tracker.py( 75):fileOpen             :: Dataframe:
+     Email  2021-1103  2021-1102
+0    blue        1.0        NaN
+1     red        1.0        NaN
+2   green        1.0        NaN
+3    pink        1.0        NaN
+3  orange        NaN        1.0
+4  purple        NaN        1.0
