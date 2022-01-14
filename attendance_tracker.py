@@ -12,6 +12,10 @@ log = simplelogging.get_logger(
     file_name="logs/log.log",
     file_level=simplelogging.DEBUG,
 )
+
+for _ in range(15):
+    print()
+
 log.info("Starting logging")
 
 
@@ -24,71 +28,57 @@ def main():
     log.info("path: %s", filePath)
     log.info("files: %s", fileList)
 
-    df = fileOpen(filePath, fileList)
+    df = build_list(filePath, fileList)
 
-    print(df)
+    csvExport(filePath, df)
+
+    # print(df)
 
 
-def fileOpen(filePath, fileList):
+def build_list(filePath, fileList):
     """Opens a file or directory of .csv files"""
     df = pd.DataFrame()
     df["Email"] = ""
     for item in fileList:
+        log.info("Processing %s", item)
+
+        # get the col name from the file
         col_name = item.split("_")[0]
+
         data = pd.read_csv(f"{filePath}/{item}", names=["Email"])
-        # data =
-        # log.debug("Data: %s", data)
-        # df2 = pd.DataFrame(data, columns=["Email"])
-        # log.debug("%s", df.dtypes)
-        # new_df = df.assign(f"{col_name}"="Yes")
-        data[f"{col_name}"] = True
-        log.info(data)
-        # df[f"{col_name}"] = ["Yes", "Yes", "Yes", "Yes"]
 
-        print("******")
-        for index, row in data.iterrows():
-            print(row["Email"])
+        # get attendance for that day
+        data[col_name] = True
+        log.debug("New data file\n%s", data)
 
-            if df["Email"].str.contains(row["Email"], regex=False).any():
-                print("match")
-                print(df.loc[df["Email"] == row["Email"]])
-                (df.loc[df["Email"] == row["Email"]])[col_name] = True 
-            else:
-                print("NO MATCH")
-                df = df.append(row)
-        print("******")
+        df = df.append(data)
 
-        # df = df.append(data, ignore_index=True)
+        log.info("End of this file pass. df to carry over\n%s", df)
 
-    # df["Email"] = df.groupby("Email")["2021-1102"].ffill()
-    # df1 = df.groupby("Email").ffill().drop_duplicates()
-    # log.info("GROUP IT:\n %s", df1)
+    # Groupby email. Max will prefer True
+    df = df.groupby(["Email"]).max()
 
-    # df = df.rename(columns={"Host Units": "HHU"})
+    # First time attendees will have NaN for older sessions, set to false
+    df = df.fillna(False)
 
-    # Drop the Summary Rows
-    # df = df.dropna()
+    # sort the columns
+    df = df[sorted(df.columns)]
 
-    # Convert to date
-    # df["Hour"] = pd.to_datetime(df["Hour"], format="%Y-%m-%d %H:%M:%S")
-
-    log.info("Dataframe:\n %s", df)
+    log.info("All done here, ready to send back:\n %s", df)
 
     return df
 
 
 def csvExport(filePath, df):
     """CSV Export & some summary statistics"""
-    startDate = df["Hour"][0].strftime("%Y-%m-%d")
-    endDate = df["Hour"].iloc[-1].strftime("%Y-%m-%d")
+    startDate = df.columns[0]
+    endDate = df.columns[-1]
     print(f"From: {startDate} to {endDate}")
-    df["Excess"] = df["Excess"].astype(int)
-    df["HHU"] = df["HHU"].astype(int)
+    # df["Excess"] = df["Excess"].astype(int)
+    # df["HHU"] = df["HHU"].astype(int)
     # if os.path.isdir(f"{filePath}/results") == False:
     os.makedirs(f"{filePath}/results", exist_ok=True)
-    df.to_csv(
-        f"{filePath}/results/hourly_hhu_{startDate}_to_{endDate}.csv", index=False
-    )
+    df.to_csv(f"{filePath}/results/list_{startDate}_to_{endDate}.csv", index=True)
 
 
 def command_line_parser():

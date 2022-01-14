@@ -1671,3 +1671,1910 @@ Index: []
 3    pink        1.0        NaN
 3  orange        NaN        1.0
 4  purple        NaN        1.0
+2022-01-14 09:08:47,512 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 09:08:47,514 [DEBUG   ] attendance_tracker.py(111):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:08:47,514 [INFO    ] attendance_tracker.py(117):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:08:47,514 [DEBUG   ] attendance_tracker.py(125):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:08:47,514 [DEBUG   ] attendance_tracker.py(130):file_processor       :: Single file
+2022-01-14 09:08:47,514 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 09:08:47,515 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:08:47,519 [INFO    ] attendance_tracker.py( 45):fileOpen             ::     Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+2022-01-14 09:08:47,553 [INFO    ] attendance_tracker.py( 75):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:14:35,773 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 09:14:35,775 [DEBUG   ] attendance_tracker.py(111):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:14:35,777 [INFO    ] attendance_tracker.py(117):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:14:35,778 [DEBUG   ] attendance_tracker.py(125):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:14:35,780 [DEBUG   ] attendance_tracker.py(130):file_processor       :: Single file
+2022-01-14 09:14:35,780 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 09:14:35,845 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:14:35,855 [INFO    ] attendance_tracker.py( 45):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+2022-01-14 09:14:35,918 [INFO    ] attendance_tracker.py( 75):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:14:59,766 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 09:14:59,768 [DEBUG   ] attendance_tracker.py(111):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:14:59,768 [INFO    ] attendance_tracker.py(117):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:14:59,769 [DEBUG   ] attendance_tracker.py(125):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:14:59,769 [DEBUG   ] attendance_tracker.py(130):file_processor       :: Single file
+2022-01-14 09:14:59,770 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 09:14:59,771 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:14:59,775 [INFO    ] attendance_tracker.py( 45):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+2022-01-14 09:14:59,825 [INFO    ] attendance_tracker.py( 75):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:15:52,974 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 09:15:52,975 [DEBUG   ] attendance_tracker.py(111):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:15:52,976 [INFO    ] attendance_tracker.py(117):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:15:52,976 [DEBUG   ] attendance_tracker.py(125):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:15:52,977 [DEBUG   ] attendance_tracker.py(130):file_processor       :: Single file
+2022-01-14 09:15:52,977 [INFO    ] attendance_tracker.py( 24):main                 :: path: data
+2022-01-14 09:15:52,978 [INFO    ] attendance_tracker.py( 25):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:15:52,983 [INFO    ] attendance_tracker.py( 45):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+2022-01-14 09:15:53,066 [INFO    ] attendance_tracker.py( 75):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:16:12,975 [INFO    ] attendance_tracker.py( 15):<module>             :: Starting logging
+2022-01-14 09:16:12,976 [INFO    ] attendance_tracker.py( 16):<module>             :: 
+2022-01-14 09:16:12,977 [INFO    ] attendance_tracker.py( 17):<module>             :: 
+2022-01-14 09:16:12,977 [INFO    ] attendance_tracker.py( 18):<module>             :: 
+2022-01-14 09:16:12,978 [INFO    ] attendance_tracker.py( 19):<module>             :: 
+2022-01-14 09:16:12,980 [DEBUG   ] attendance_tracker.py(115):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:16:12,982 [INFO    ] attendance_tracker.py(121):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:16:12,982 [DEBUG   ] attendance_tracker.py(129):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:16:12,983 [DEBUG   ] attendance_tracker.py(134):file_processor       :: Single file
+2022-01-14 09:16:12,983 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 09:16:12,984 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:16:12,990 [INFO    ] attendance_tracker.py( 49):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+2022-01-14 09:16:13,071 [INFO    ] attendance_tracker.py( 79):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:16:30,935 [INFO    ] attendance_tracker.py( 21):<module>             :: Starting logging
+2022-01-14 09:16:30,937 [DEBUG   ] attendance_tracker.py(117):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:16:30,937 [INFO    ] attendance_tracker.py(123):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:16:30,938 [DEBUG   ] attendance_tracker.py(131):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:16:30,938 [DEBUG   ] attendance_tracker.py(136):file_processor       :: Single file
+2022-01-14 09:16:30,939 [INFO    ] attendance_tracker.py( 30):main                 :: path: data
+2022-01-14 09:16:30,939 [INFO    ] attendance_tracker.py( 31):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:16:30,945 [INFO    ] attendance_tracker.py( 51):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+2022-01-14 09:16:31,013 [INFO    ] attendance_tracker.py( 81):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:17:09,748 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 09:17:09,750 [DEBUG   ] attendance_tracker.py(115):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:17:09,750 [INFO    ] attendance_tracker.py(121):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:17:09,750 [DEBUG   ] attendance_tracker.py(129):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:17:09,750 [DEBUG   ] attendance_tracker.py(134):file_processor       :: Single file
+2022-01-14 09:17:09,750 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 09:17:09,751 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:17:09,755 [INFO    ] attendance_tracker.py( 49):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+2022-01-14 09:17:09,791 [INFO    ] attendance_tracker.py( 79):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:18:02,042 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 09:18:02,044 [DEBUG   ] attendance_tracker.py(115):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:18:02,044 [INFO    ] attendance_tracker.py(121):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:18:02,044 [DEBUG   ] attendance_tracker.py(129):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:18:02,045 [DEBUG   ] attendance_tracker.py(134):file_processor       :: Single file
+2022-01-14 09:18:02,046 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 09:18:02,047 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:18:02,053 [INFO    ] attendance_tracker.py( 49):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+2022-01-14 09:18:02,112 [INFO    ] attendance_tracker.py( 79):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:18:27,705 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 09:18:27,708 [DEBUG   ] attendance_tracker.py(115):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:18:27,708 [INFO    ] attendance_tracker.py(121):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:18:27,708 [DEBUG   ] attendance_tracker.py(129):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:18:27,709 [DEBUG   ] attendance_tracker.py(134):file_processor       :: Single file
+2022-01-14 09:18:27,709 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 09:18:27,710 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:18:27,714 [INFO    ] attendance_tracker.py( 49):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+2022-01-14 09:18:27,754 [INFO    ] attendance_tracker.py( 79):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:18:32,640 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 09:18:32,642 [DEBUG   ] attendance_tracker.py(115):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:18:32,643 [INFO    ] attendance_tracker.py(121):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:18:32,644 [DEBUG   ] attendance_tracker.py(129):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:18:32,644 [DEBUG   ] attendance_tracker.py(134):file_processor       :: Single file
+2022-01-14 09:18:32,645 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 09:18:32,645 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:18:32,650 [INFO    ] attendance_tracker.py( 49):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+2022-01-14 09:18:32,718 [INFO    ] attendance_tracker.py( 79):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:20:03,505 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 09:20:03,507 [DEBUG   ] attendance_tracker.py(115):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:20:03,507 [INFO    ] attendance_tracker.py(121):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:20:03,508 [DEBUG   ] attendance_tracker.py(129):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:20:03,509 [DEBUG   ] attendance_tracker.py(134):file_processor       :: Single file
+2022-01-14 09:20:03,509 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 09:20:03,544 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:20:03,560 [INFO    ] attendance_tracker.py( 49):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+2022-01-14 09:20:03,621 [INFO    ] attendance_tracker.py( 79):fileOpen             :: Dataframe:
+     Email  2021-1102
+0     red        1.0
+1    blue        1.0
+2  orange        1.0
+3  yellow        1.0
+4   green        1.0
+2022-01-14 09:25:24,383 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 09:25:24,385 [DEBUG   ] attendance_tracker.py(119):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 09:25:24,385 [INFO    ] attendance_tracker.py(125):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 09:25:24,385 [DEBUG   ] attendance_tracker.py(133):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 09:25:24,385 [DEBUG   ] attendance_tracker.py(138):file_processor       :: Single file
+2022-01-14 09:25:24,386 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 09:25:24,386 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 09:25:24,390 [INFO    ] attendance_tracker.py( 49):fileOpen             :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+2022-01-14 12:13:55,189 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:13:55,192 [DEBUG   ] attendance_tracker.py(124):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:13:55,192 [INFO    ] attendance_tracker.py(130):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:13:55,192 [DEBUG   ] attendance_tracker.py(138):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:13:55,193 [DEBUG   ] attendance_tracker.py(143):file_processor       :: Single file
+2022-01-14 12:13:55,204 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:13:55,205 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:13:55,210 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:13:55,232 [INFO    ] attendance_tracker.py( 88):build_list           :: Dataframe:
+ Empty DataFrame
+Columns: [Email]
+Index: []
+2022-01-14 12:15:02,068 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:15:02,070 [DEBUG   ] attendance_tracker.py(124):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:15:02,070 [INFO    ] attendance_tracker.py(130):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:15:02,071 [DEBUG   ] attendance_tracker.py(138):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:15:02,071 [DEBUG   ] attendance_tracker.py(143):file_processor       :: Single file
+2022-01-14 12:15:02,073 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:15:02,075 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:15:02,091 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:15:02,157 [INFO    ] attendance_tracker.py( 88):build_list           :: Dataframe:
+ Empty DataFrame
+Columns: [Email]
+Index: []
+2022-01-14 12:16:02,529 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:16:02,531 [DEBUG   ] attendance_tracker.py(129):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:16:02,531 [INFO    ] attendance_tracker.py(135):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:16:02,532 [DEBUG   ] attendance_tracker.py(143):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:16:02,533 [DEBUG   ] attendance_tracker.py(148):file_processor       :: Single file
+2022-01-14 12:16:02,533 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:16:02,534 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:16:02,538 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:16:27,688 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:16:27,690 [DEBUG   ] attendance_tracker.py(129):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:16:27,690 [INFO    ] attendance_tracker.py(135):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:16:27,690 [DEBUG   ] attendance_tracker.py(143):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:16:27,690 [DEBUG   ] attendance_tracker.py(148):file_processor       :: Single file
+2022-01-14 12:16:27,690 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:16:27,690 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:16:27,694 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:17:44,542 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:17:44,543 [DEBUG   ] attendance_tracker.py(130):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:17:44,544 [INFO    ] attendance_tracker.py(136):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:17:44,544 [DEBUG   ] attendance_tracker.py(144):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:17:44,544 [DEBUG   ] attendance_tracker.py(149):file_processor       :: Single file
+2022-01-14 12:17:44,544 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:17:44,544 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:17:44,548 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:17:56,300 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:17:56,302 [DEBUG   ] attendance_tracker.py(130):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:17:56,302 [INFO    ] attendance_tracker.py(136):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:17:56,303 [DEBUG   ] attendance_tracker.py(144):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:17:56,303 [DEBUG   ] attendance_tracker.py(149):file_processor       :: Single file
+2022-01-14 12:17:56,304 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:17:56,304 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:17:56,309 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:17:56,335 [DEBUG   ] attendance_tracker.py( 61):build_list           :: Good luck
+2022-01-14 12:17:56,336 [INFO    ] attendance_tracker.py( 94):build_list           :: Dataframe:
+ Empty DataFrame
+Columns: [Email]
+Index: []
+2022-01-14 12:18:34,591 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:18:34,593 [DEBUG   ] attendance_tracker.py(131):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:18:34,594 [INFO    ] attendance_tracker.py(137):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:18:34,594 [DEBUG   ] attendance_tracker.py(145):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:18:34,595 [DEBUG   ] attendance_tracker.py(150):file_processor       :: Single file
+2022-01-14 12:18:34,595 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:18:34,595 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:18:34,600 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:18:34,626 [DEBUG   ] attendance_tracker.py( 62):build_list           :: Good luck
+2022-01-14 12:18:34,627 [INFO    ] attendance_tracker.py( 95):build_list           :: Dataframe:
+ Empty DataFrame
+Columns: [Email, 2021-1102]
+Index: []
+2022-01-14 12:19:09,257 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:19:09,260 [DEBUG   ] attendance_tracker.py(131):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:19:09,260 [INFO    ] attendance_tracker.py(137):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:19:09,260 [DEBUG   ] attendance_tracker.py(145):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:19:09,261 [DEBUG   ] attendance_tracker.py(150):file_processor       :: Single file
+2022-01-14 12:19:09,261 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:19:09,261 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:19:09,266 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:19:09,286 [DEBUG   ] attendance_tracker.py( 62):build_list           :: Good luck
+2022-01-14 12:19:09,291 [INFO    ] attendance_tracker.py( 95):build_list           :: Dataframe:
+     Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:19:26,406 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:19:26,409 [DEBUG   ] attendance_tracker.py(131):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:19:26,409 [INFO    ] attendance_tracker.py(137):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:19:26,409 [DEBUG   ] attendance_tracker.py(145):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:19:26,409 [DEBUG   ] attendance_tracker.py(150):file_processor       :: Single file
+2022-01-14 12:19:26,410 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:19:26,411 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:19:26,415 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:19:26,440 [DEBUG   ] attendance_tracker.py( 62):build_list           :: Good luck
+2022-01-14 12:19:26,446 [INFO    ] attendance_tracker.py( 95):build_list           :: Dataframe:
+     Email 2021-1102
+0     red      True
+1    blue      True
+2  orange      True
+3  yellow      True
+4   green      True
+5     red      True
+6   hazel      True
+2022-01-14 12:20:29,810 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:20:29,813 [DEBUG   ] attendance_tracker.py(133):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:20:29,813 [INFO    ] attendance_tracker.py(139):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:20:29,813 [DEBUG   ] attendance_tracker.py(147):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:20:29,814 [DEBUG   ] attendance_tracker.py(152):file_processor       :: Single file
+2022-01-14 12:20:29,814 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:20:29,815 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:20:29,820 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:20:29,848 [DEBUG   ] attendance_tracker.py( 62):build_list           :: Good luck
+2022-01-14 12:20:29,861 [INFO    ] attendance_tracker.py( 97):build_list           :: Dataframe:
+         2021-1102
+Email            
+blue         True
+green        True
+hazel        True
+orange       True
+red          True
+yellow       True
+2022-01-14 12:20:43,116 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:20:43,118 [DEBUG   ] attendance_tracker.py(133):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:20:43,118 [INFO    ] attendance_tracker.py(139):command_line_parser  :: The file path is: data
+2022-01-14 12:20:43,118 [DEBUG   ] attendance_tracker.py(147):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:20:43,119 [INFO    ] attendance_tracker.py(156):file_processor       :: Adding .csv files in data
+2022-01-14 12:20:43,119 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:20:43,119 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:20:43,123 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:20:43,144 [DEBUG   ] attendance_tracker.py( 62):build_list           :: Good luck
+2022-01-14 12:20:43,155 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:20:43,180 [DEBUG   ] attendance_tracker.py( 62):build_list           :: Good luck
+2022-01-14 12:20:43,193 [INFO    ] attendance_tracker.py( 97):build_list           :: Dataframe:
+         2021-1103  2021-1102
+Email                       
+blue          NaN       True
+green         NaN       True
+hazel         NaN       True
+orange        NaN       True
+red           NaN       True
+yellow        NaN       True
+2022-01-14 12:22:04,467 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:22:04,470 [DEBUG   ] attendance_tracker.py(135):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:22:04,470 [INFO    ] attendance_tracker.py(141):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:22:04,470 [DEBUG   ] attendance_tracker.py(149):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:22:04,470 [DEBUG   ] attendance_tracker.py(154):file_processor       :: Single file
+2022-01-14 12:22:04,471 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:22:04,472 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:22:04,476 [INFO    ] attendance_tracker.py( 49):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:22:04,499 [DEBUG   ] attendance_tracker.py( 62):build_list           :: Good luck
+2022-01-14 12:22:04,510 [INFO    ] attendance_tracker.py( 82):build_list           :: End of this file pass
+2022-01-14 12:22:04,515 [INFO    ] attendance_tracker.py( 99):build_list           :: Dataframe:
+         2021-1102
+Email            
+blue         True
+green        True
+hazel        True
+orange       True
+red          True
+yellow       True
+2022-01-14 12:23:26,340 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:23:26,342 [DEBUG   ] attendance_tracker.py(138):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:23:26,342 [INFO    ] attendance_tracker.py(144):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:23:26,343 [DEBUG   ] attendance_tracker.py(152):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:23:26,344 [DEBUG   ] attendance_tracker.py(157):file_processor       :: Single file
+2022-01-14 12:23:26,344 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:23:26,345 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:23:26,348 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:23:26,352 [INFO    ] attendance_tracker.py( 52):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:23:26,415 [DEBUG   ] attendance_tracker.py( 65):build_list           :: Good luck
+2022-01-14 12:23:26,425 [INFO    ] attendance_tracker.py( 85):build_list           :: End of this file pass
+2022-01-14 12:23:26,430 [INFO    ] attendance_tracker.py(102):build_list           :: Dataframe:
+         2021-1102
+Email            
+blue         True
+green        True
+hazel        True
+orange       True
+red          True
+yellow       True
+2022-01-14 12:23:49,474 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:23:49,477 [DEBUG   ] attendance_tracker.py(138):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:23:49,477 [INFO    ] attendance_tracker.py(144):command_line_parser  :: The file path is: data
+2022-01-14 12:23:49,477 [DEBUG   ] attendance_tracker.py(152):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:23:49,477 [INFO    ] attendance_tracker.py(161):file_processor       :: Adding .csv files in data
+2022-01-14 12:23:49,478 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:23:49,479 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:23:49,480 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:23:49,484 [INFO    ] attendance_tracker.py( 52):build_list           :: 
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:23:49,509 [DEBUG   ] attendance_tracker.py( 65):build_list           :: Good luck
+2022-01-14 12:23:49,520 [INFO    ] attendance_tracker.py( 85):build_list           :: End of this file pass
+2022-01-14 12:23:49,524 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:23:49,528 [INFO    ] attendance_tracker.py( 52):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:23:49,610 [DEBUG   ] attendance_tracker.py( 65):build_list           :: Good luck
+2022-01-14 12:23:49,623 [INFO    ] attendance_tracker.py( 85):build_list           :: End of this file pass
+2022-01-14 12:23:49,631 [INFO    ] attendance_tracker.py(102):build_list           :: Dataframe:
+         2021-1103  2021-1102
+Email                       
+blue          NaN       True
+green         NaN       True
+hazel         NaN       True
+orange        NaN       True
+red           NaN       True
+yellow        NaN       True
+2022-01-14 12:26:13,641 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:26:13,643 [DEBUG   ] attendance_tracker.py(140):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:26:13,643 [INFO    ] attendance_tracker.py(146):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:26:13,643 [DEBUG   ] attendance_tracker.py(154):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:26:13,643 [DEBUG   ] attendance_tracker.py(159):file_processor       :: Single file
+2022-01-14 12:26:13,644 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:26:13,644 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:26:13,645 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:26:13,654 [INFO    ] attendance_tracker.py( 52):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:27:36,360 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:27:36,362 [DEBUG   ] attendance_tracker.py(141):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:27:36,362 [INFO    ] attendance_tracker.py(147):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:27:36,362 [DEBUG   ] attendance_tracker.py(155):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:27:36,362 [DEBUG   ] attendance_tracker.py(160):file_processor       :: Single file
+2022-01-14 12:27:36,362 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:27:36,363 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:27:36,364 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:27:36,367 [INFO    ] attendance_tracker.py( 52):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:27:36,389 [DEBUG   ] attendance_tracker.py( 68):build_list           :: Good luck
+2022-01-14 12:27:36,399 [INFO    ] attendance_tracker.py( 88):build_list           :: End of this file pass
+2022-01-14 12:27:36,404 [INFO    ] attendance_tracker.py(105):build_list           :: Dataframe:
+         2021-1102
+Email            
+blue         True
+green        True
+hazel        True
+orange       True
+red          True
+yellow       True
+2022-01-14 12:27:45,334 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:27:45,336 [DEBUG   ] attendance_tracker.py(141):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:27:45,336 [INFO    ] attendance_tracker.py(147):command_line_parser  :: The file path is: data
+2022-01-14 12:27:45,336 [DEBUG   ] attendance_tracker.py(155):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:27:45,337 [INFO    ] attendance_tracker.py(164):file_processor       :: Adding .csv files in data
+2022-01-14 12:27:45,337 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:27:45,337 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:27:45,339 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:27:45,342 [INFO    ] attendance_tracker.py( 52):build_list           :: 
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:27:45,364 [DEBUG   ] attendance_tracker.py( 68):build_list           :: Good luck
+2022-01-14 12:27:45,372 [INFO    ] attendance_tracker.py( 88):build_list           :: End of this file pass
+2022-01-14 12:27:45,376 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:27:45,379 [INFO    ] attendance_tracker.py( 52):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:27:45,404 [DEBUG   ] attendance_tracker.py( 68):build_list           :: Good luck
+2022-01-14 12:27:45,418 [INFO    ] attendance_tracker.py( 88):build_list           :: End of this file pass
+2022-01-14 12:27:45,424 [INFO    ] attendance_tracker.py(105):build_list           :: Dataframe:
+         2021-1103  2021-1102
+Email                       
+blue          NaN       True
+green         NaN       True
+hazel         NaN       True
+orange        NaN       True
+red           NaN       True
+yellow        NaN       True
+2022-01-14 12:28:32,313 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:28:32,315 [DEBUG   ] attendance_tracker.py(141):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:28:32,315 [INFO    ] attendance_tracker.py(147):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:28:32,315 [DEBUG   ] attendance_tracker.py(155):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:28:32,315 [DEBUG   ] attendance_tracker.py(160):file_processor       :: Single file
+2022-01-14 12:28:32,316 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:28:32,316 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:28:32,317 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:28:32,321 [INFO    ] attendance_tracker.py( 52):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:28:32,344 [DEBUG   ] attendance_tracker.py( 68):build_list           :: Good luck
+2022-01-14 12:28:32,354 [INFO    ] attendance_tracker.py( 88):build_list           :: End of this file pass
+2022-01-14 12:28:32,358 [INFO    ] attendance_tracker.py(105):build_list           :: Dataframe:
+         2021-1102
+Email            
+blue         True
+green        True
+hazel        True
+orange       True
+red          True
+yellow       True
+2022-01-14 12:28:42,412 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:28:42,414 [DEBUG   ] attendance_tracker.py(141):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:28:42,414 [INFO    ] attendance_tracker.py(147):command_line_parser  :: The file path is: data
+2022-01-14 12:28:42,414 [DEBUG   ] attendance_tracker.py(155):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:28:42,415 [INFO    ] attendance_tracker.py(164):file_processor       :: Adding .csv files in data
+2022-01-14 12:28:42,416 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:28:42,416 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:28:42,419 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:28:42,422 [INFO    ] attendance_tracker.py( 52):build_list           :: 
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:28:42,447 [DEBUG   ] attendance_tracker.py( 68):build_list           :: Good luck
+2022-01-14 12:28:42,456 [INFO    ] attendance_tracker.py( 88):build_list           :: End of this file pass
+2022-01-14 12:28:42,461 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:28:42,464 [INFO    ] attendance_tracker.py( 52):build_list           :: 
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:28:42,492 [DEBUG   ] attendance_tracker.py( 68):build_list           :: Good luck
+2022-01-14 12:28:42,504 [INFO    ] attendance_tracker.py( 88):build_list           :: End of this file pass
+2022-01-14 12:28:42,511 [INFO    ] attendance_tracker.py(105):build_list           :: Dataframe:
+         2021-1103  2021-1102
+Email                       
+blue          NaN       True
+green         NaN       True
+hazel         NaN       True
+orange        NaN       True
+red           NaN       True
+yellow        NaN       True
+2022-01-14 12:30:20,379 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:30:20,382 [DEBUG   ] attendance_tracker.py(141):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:30:20,391 [INFO    ] attendance_tracker.py(147):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:30:20,391 [DEBUG   ] attendance_tracker.py(155):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:30:20,391 [DEBUG   ] attendance_tracker.py(160):file_processor       :: Single file
+2022-01-14 12:30:20,392 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:30:20,393 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:30:20,395 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:30:20,399 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:30:20,426 [DEBUG   ] attendance_tracker.py( 68):build_list           :: Good luck
+2022-01-14 12:30:20,438 [INFO    ] attendance_tracker.py( 88):build_list           :: End of this file pass
+2022-01-14 12:30:20,444 [INFO    ] attendance_tracker.py(105):build_list           :: Dataframe:
+         2021-1102
+Email            
+blue         True
+green        True
+hazel        True
+orange       True
+red          True
+yellow       True
+2022-01-14 12:30:27,767 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:30:27,769 [DEBUG   ] attendance_tracker.py(141):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:30:27,769 [INFO    ] attendance_tracker.py(147):command_line_parser  :: The file path is: data
+2022-01-14 12:30:27,769 [DEBUG   ] attendance_tracker.py(155):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:30:27,770 [INFO    ] attendance_tracker.py(164):file_processor       :: Adding .csv files in data
+2022-01-14 12:30:27,770 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:30:27,770 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:30:27,771 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:30:27,774 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:30:27,795 [DEBUG   ] attendance_tracker.py( 68):build_list           :: Good luck
+2022-01-14 12:30:27,803 [INFO    ] attendance_tracker.py( 88):build_list           :: End of this file pass
+2022-01-14 12:30:27,807 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:30:27,810 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:30:27,834 [DEBUG   ] attendance_tracker.py( 68):build_list           :: Good luck
+2022-01-14 12:30:27,845 [INFO    ] attendance_tracker.py( 88):build_list           :: End of this file pass
+2022-01-14 12:30:27,851 [INFO    ] attendance_tracker.py(105):build_list           :: Dataframe:
+         2021-1103  2021-1102
+Email                       
+blue          NaN       True
+green         NaN       True
+hazel         NaN       True
+orange        NaN       True
+red           NaN       True
+yellow        NaN       True
+2022-01-14 12:31:01,303 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:31:01,304 [DEBUG   ] attendance_tracker.py(140):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:31:01,305 [INFO    ] attendance_tracker.py(146):command_line_parser  :: The file path is: data
+2022-01-14 12:31:01,305 [DEBUG   ] attendance_tracker.py(154):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:31:01,305 [INFO    ] attendance_tracker.py(163):file_processor       :: Adding .csv files in data
+2022-01-14 12:31:01,305 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:31:01,305 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:31:01,307 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:31:01,310 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:31:01,330 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:31:01,338 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:31:01,342 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:31:01,345 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:31:01,369 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:31:01,380 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:31:01,385 [INFO    ] attendance_tracker.py(104):build_list           :: Dataframe:
+         2021-1103  2021-1102
+Email                       
+blue          NaN       True
+green         NaN       True
+hazel         NaN       True
+orange        NaN       True
+red           NaN       True
+yellow        NaN       True
+2022-01-14 12:33:41,371 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:33:41,395 [DEBUG   ] attendance_tracker.py(143):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:33:41,396 [INFO    ] attendance_tracker.py(149):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:33:41,396 [DEBUG   ] attendance_tracker.py(157):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:33:41,396 [DEBUG   ] attendance_tracker.py(162):file_processor       :: Single file
+2022-01-14 12:33:41,396 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:33:41,396 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:33:41,398 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:33:41,401 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:33:41,426 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:33:41,432 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:33:41,440 [INFO    ] attendance_tracker.py(107):build_list           :: Dataframe:
+         2021-1102
+Email            
+blue         True
+green        True
+hazel        True
+orange       True
+red          True
+yellow       True
+2022-01-14 12:34:03,113 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:34:03,114 [DEBUG   ] attendance_tracker.py(143):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:34:03,115 [INFO    ] attendance_tracker.py(149):command_line_parser  :: The file path is: data
+2022-01-14 12:34:03,115 [DEBUG   ] attendance_tracker.py(157):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:34:03,115 [INFO    ] attendance_tracker.py(166):file_processor       :: Adding .csv files in data
+2022-01-14 12:34:03,115 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:34:03,115 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:34:03,117 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:34:03,120 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:34:03,141 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:34:03,147 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:34:03,152 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:34:03,155 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:34:03,181 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:34:03,188 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:34:03,200 [INFO    ] attendance_tracker.py(107):build_list           :: Dataframe:
+        2021-1103  2021-1102
+Email                      
+azure       True      False
+blue        True       True
+green       True       True
+hazel        NaN       True
+orange       NaN       True
+pink        True      False
+red         True       True
+violet      True      False
+yellow      True       True
+2022-01-14 12:35:36,308 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:35:36,311 [DEBUG   ] attendance_tracker.py(144):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data/2021-1102_Customer_Cohort_1.csv')
+2022-01-14 12:35:36,312 [INFO    ] attendance_tracker.py(150):command_line_parser  :: The file path is: data/2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:35:36,312 [DEBUG   ] attendance_tracker.py(158):file_processor       :: file_processor: data/2021-1102_Customer_Cohort_1.csv of <class 'str'>
+2022-01-14 12:35:36,313 [DEBUG   ] attendance_tracker.py(163):file_processor       :: Single file
+2022-01-14 12:35:36,313 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:35:36,314 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:35:36,316 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:35:36,319 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:35:36,345 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:35:36,351 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:35:36,361 [INFO    ] attendance_tracker.py(108):build_list           :: Dataframe:
+         2021-1102
+Email            
+blue         True
+green        True
+hazel        True
+orange       True
+red          True
+yellow       True
+2022-01-14 12:35:43,718 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:35:43,720 [DEBUG   ] attendance_tracker.py(144):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:35:43,720 [INFO    ] attendance_tracker.py(150):command_line_parser  :: The file path is: data
+2022-01-14 12:35:43,720 [DEBUG   ] attendance_tracker.py(158):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:35:43,720 [INFO    ] attendance_tracker.py(167):file_processor       :: Adding .csv files in data
+2022-01-14 12:35:43,720 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:35:43,721 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:35:43,722 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:35:43,725 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:35:43,746 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:35:43,751 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:35:43,757 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:35:43,760 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:35:43,786 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:35:43,793 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:35:43,806 [INFO    ] attendance_tracker.py(108):build_list           :: Dataframe:
+         2021-1103  2021-1102
+Email                       
+azure        True      False
+blue         True       True
+green        True       True
+hazel       False       True
+orange      False       True
+pink         True      False
+red          True       True
+violet       True      False
+yellow       True       True
+2022-01-14 12:36:40,860 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:36:40,863 [DEBUG   ] attendance_tracker.py(144):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:36:40,863 [INFO    ] attendance_tracker.py(150):command_line_parser  :: The file path is: data
+2022-01-14 12:36:40,863 [DEBUG   ] attendance_tracker.py(158):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:36:40,865 [INFO    ] attendance_tracker.py(167):file_processor       :: Adding .csv files in data
+2022-01-14 12:36:40,866 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:36:40,867 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:36:40,869 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:36:40,872 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:36:40,899 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:36:40,905 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:36:40,910 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:36:40,915 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:36:40,947 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:36:40,956 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:36:40,967 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:36:40,971 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:36:41,006 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:36:41,017 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:36:41,039 [INFO    ] attendance_tracker.py(108):build_list           :: Dataframe:
+          2021-1103  2021-1104  2021-1102
+Email                                   
+azure         True       True      False
+blue          True      False       True
+green         True       True       True
+hazel        False      False       True
+magenta      False       True      False
+orange       False      False       True
+pink          True       True      False
+red           True       True       True
+violet        True       True      False
+yellow        True       True       True
+2022-01-14 12:39:05,033 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:39:05,034 [DEBUG   ] attendance_tracker.py(150):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:39:05,035 [INFO    ] attendance_tracker.py(156):command_line_parser  :: The file path is: data
+2022-01-14 12:39:05,035 [DEBUG   ] attendance_tracker.py(164):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:39:05,035 [INFO    ] attendance_tracker.py(173):file_processor       :: Adding .csv files in data
+2022-01-14 12:39:05,035 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:39:05,035 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:39:05,037 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:39:05,040 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:39:05,060 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:39:05,065 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:39:05,070 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:39:05,072 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:39:05,102 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:39:05,108 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:39:05,116 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:39:05,119 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:39:05,149 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:39:05,159 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:39:05,182 [INFO    ] attendance_tracker.py(107):build_list           :: Dataframe:
+          2021-1103  2021-1104  2021-1102
+Email                                   
+azure         True       True      False
+blue          True      False       True
+green         True       True       True
+hazel        False      False       True
+magenta      False       True      False
+orange       False      False       True
+pink          True       True      False
+red           True       True       True
+violet        True       True      False
+yellow        True       True       True
+2022-01-14 12:39:50,999 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:39:51,005 [DEBUG   ] attendance_tracker.py(150):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:39:51,005 [INFO    ] attendance_tracker.py(156):command_line_parser  :: The file path is: data
+2022-01-14 12:39:51,005 [DEBUG   ] attendance_tracker.py(164):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:39:51,006 [INFO    ] attendance_tracker.py(173):file_processor       :: Adding .csv files in data
+2022-01-14 12:39:51,006 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:39:51,006 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:39:51,008 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:39:51,011 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:39:51,044 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:39:51,050 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:39:51,055 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:39:51,060 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:39:51,086 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:39:51,093 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:39:51,100 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:39:51,104 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:39:51,133 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:39:51,174 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:39:51,192 [INFO    ] attendance_tracker.py(107):build_list           :: Dataframe:
+          2021-1103  2021-1104  2021-1102
+Email                                   
+azure         True       True      False
+blue          True      False       True
+green         True       True       True
+hazel        False      False       True
+magenta      False       True      False
+orange       False      False       True
+pink          True       True      False
+red           True       True       True
+violet        True       True      False
+yellow        True       True       True
+2022-01-14 12:39:51,211 [INFO    ] attendance_tracker.py(113):build_list           :: Sorted columns
+2022-01-14 12:39:51,211 [INFO    ] attendance_tracker.py(114):build_list           :: Dataframe:
+          2021-1103  2021-1104  2021-1102
+Email                                   
+azure         True       True      False
+blue          True      False       True
+green         True       True       True
+hazel        False      False       True
+magenta      False       True      False
+orange       False      False       True
+pink          True       True      False
+red           True       True       True
+violet        True       True      False
+yellow        True       True       True
+2022-01-14 12:40:30,610 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:40:30,612 [DEBUG   ] attendance_tracker.py(151):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:40:30,613 [INFO    ] attendance_tracker.py(157):command_line_parser  :: The file path is: data
+2022-01-14 12:40:30,613 [DEBUG   ] attendance_tracker.py(165):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:40:30,613 [INFO    ] attendance_tracker.py(174):file_processor       :: Adding .csv files in data
+2022-01-14 12:40:30,613 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:40:30,613 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:40:30,615 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:40:30,618 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:40:30,642 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:40:30,650 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:40:30,656 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:40:30,658 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:40:30,686 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:40:30,692 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:40:30,698 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:40:30,701 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:40:30,734 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:40:30,743 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:40:30,762 [INFO    ] attendance_tracker.py(107):build_list           :: Dataframe:
+          2021-1103  2021-1104  2021-1102
+Email                                   
+azure         True       True      False
+blue          True      False       True
+green         True       True       True
+hazel        False      False       True
+magenta      False       True      False
+orange       False      False       True
+pink          True       True      False
+red           True       True       True
+violet        True       True      False
+yellow        True       True       True
+2022-01-14 12:40:30,786 [INFO    ] attendance_tracker.py(114):build_list           :: Sorted columns
+2022-01-14 12:40:30,786 [INFO    ] attendance_tracker.py(115):build_list           :: Dataframe:
+          2021-1102  2021-1103  2021-1104
+Email                                   
+azure        False       True       True
+blue          True       True      False
+green         True       True       True
+hazel         True      False      False
+magenta      False      False       True
+orange        True      False      False
+pink         False       True       True
+red           True       True       True
+violet       False       True       True
+yellow        True       True       True
+2022-01-14 12:41:57,299 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:41:57,302 [DEBUG   ] attendance_tracker.py(151):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:41:57,302 [INFO    ] attendance_tracker.py(157):command_line_parser  :: The file path is: data
+2022-01-14 12:41:57,302 [DEBUG   ] attendance_tracker.py(165):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:41:57,302 [INFO    ] attendance_tracker.py(174):file_processor       :: Adding .csv files in data
+2022-01-14 12:41:57,302 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:41:57,303 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:41:57,304 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:41:57,307 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:41:57,329 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:41:57,335 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:41:57,341 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:41:57,346 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:41:57,385 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:41:57,396 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:41:57,404 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:41:57,409 [INFO    ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:41:57,465 [DEBUG   ] attendance_tracker.py( 67):build_list           :: Good luck
+2022-01-14 12:41:57,480 [INFO    ] attendance_tracker.py( 87):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:41:57,514 [INFO    ] attendance_tracker.py(107):build_list           :: Dataframe:
+          2021-1103  2021-1104  2021-1102
+Email                                   
+azure         True       True      False
+blue          True      False       True
+green         True       True       True
+hazel        False      False       True
+magenta      False       True      False
+orange       False      False       True
+pink          True       True      False
+red           True       True       True
+violet        True       True      False
+yellow        True       True       True
+2022-01-14 12:41:57,539 [INFO    ] attendance_tracker.py(114):build_list           :: Sorted columns
+2022-01-14 12:41:57,540 [INFO    ] attendance_tracker.py(115):build_list           :: Dataframe:
+          2021-1102  2021-1103  2021-1104
+Email                                   
+azure        False       True       True
+blue          True       True      False
+green         True       True       True
+hazel         True      False      False
+magenta      False      False       True
+orange        True      False      False
+pink         False       True       True
+red           True       True       True
+violet       False       True       True
+yellow        True       True       True
+2022-01-14 12:42:37,424 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:42:37,427 [DEBUG   ] attendance_tracker.py(140):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:42:37,427 [INFO    ] attendance_tracker.py(146):command_line_parser  :: The file path is: data
+2022-01-14 12:42:37,427 [DEBUG   ] attendance_tracker.py(154):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:42:37,427 [INFO    ] attendance_tracker.py(163):file_processor       :: Adding .csv files in data
+2022-01-14 12:42:37,429 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:42:37,429 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:42:37,431 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:42:37,434 [INFO    ] attendance_tracker.py( 48):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:42:37,451 [DEBUG   ] attendance_tracker.py( 56):build_list           :: Good luck
+2022-01-14 12:42:37,456 [INFO    ] attendance_tracker.py( 76):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:42:37,462 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:42:37,465 [INFO    ] attendance_tracker.py( 48):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:42:37,482 [DEBUG   ] attendance_tracker.py( 56):build_list           :: Good luck
+2022-01-14 12:42:37,490 [INFO    ] attendance_tracker.py( 76):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:42:37,496 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:42:37,500 [INFO    ] attendance_tracker.py( 48):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:42:37,516 [DEBUG   ] attendance_tracker.py( 56):build_list           :: Good luck
+2022-01-14 12:42:37,526 [INFO    ] attendance_tracker.py( 76):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:42:37,550 [INFO    ] attendance_tracker.py( 96):build_list           :: Dataframe:
+          2021-1103  2021-1104  2021-1102
+Email                                   
+azure         True       True      False
+blue          True      False       True
+green         True       True       True
+hazel        False      False       True
+magenta      False       True      False
+orange       False      False       True
+pink          True       True      False
+red           True       True       True
+violet        True       True      False
+yellow        True       True       True
+2022-01-14 12:42:37,572 [INFO    ] attendance_tracker.py(103):build_list           :: Sorted columns
+2022-01-14 12:42:37,572 [INFO    ] attendance_tracker.py(104):build_list           :: Dataframe:
+          2021-1102  2021-1103  2021-1104
+Email                                   
+azure        False       True       True
+blue          True       True      False
+green         True       True       True
+hazel         True      False      False
+magenta      False      False       True
+orange        True      False      False
+pink         False       True       True
+red           True       True       True
+violet       False       True       True
+yellow        True       True       True
+2022-01-14 12:42:59,091 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:42:59,094 [DEBUG   ] attendance_tracker.py(140):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:42:59,095 [INFO    ] attendance_tracker.py(146):command_line_parser  :: The file path is: data
+2022-01-14 12:42:59,095 [DEBUG   ] attendance_tracker.py(154):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:42:59,096 [INFO    ] attendance_tracker.py(163):file_processor       :: Adding .csv files in data
+2022-01-14 12:42:59,097 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:42:59,097 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:42:59,100 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:42:59,105 [INFO    ] attendance_tracker.py( 48):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:42:59,127 [DEBUG   ] attendance_tracker.py( 56):build_list           :: Good luck
+2022-01-14 12:42:59,132 [INFO    ] attendance_tracker.py( 76):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:42:59,139 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:42:59,145 [INFO    ] attendance_tracker.py( 48):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:42:59,166 [DEBUG   ] attendance_tracker.py( 56):build_list           :: Good luck
+2022-01-14 12:42:59,182 [INFO    ] attendance_tracker.py( 76):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:42:59,198 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:42:59,203 [INFO    ] attendance_tracker.py( 48):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:42:59,228 [DEBUG   ] attendance_tracker.py( 56):build_list           :: Good luck
+2022-01-14 12:42:59,252 [INFO    ] attendance_tracker.py( 76):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:42:59,286 [INFO    ] attendance_tracker.py( 96):build_list           :: Dataframe:
+          2021-1103  2021-1104  2021-1102
+Email                                   
+azure         True       True      False
+blue          True      False       True
+green         True       True       True
+hazel        False      False       True
+magenta      False       True      False
+orange       False      False       True
+pink          True       True      False
+red           True       True       True
+violet        True       True      False
+yellow        True       True       True
+2022-01-14 12:42:59,308 [INFO    ] attendance_tracker.py(103):build_list           :: Sorted columns
+2022-01-14 12:42:59,308 [INFO    ] attendance_tracker.py(104):build_list           :: Dataframe:
+          2021-1102  2021-1103  2021-1104
+Email                                   
+azure        False       True       True
+blue          True       True      False
+green         True       True       True
+hazel         True      False      False
+magenta      False      False       True
+orange        True      False      False
+pink         False       True       True
+red           True       True       True
+violet       False       True       True
+yellow        True       True       True
+2022-01-14 12:47:50,230 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:47:50,234 [DEBUG   ] attendance_tracker.py(103):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:47:50,235 [INFO    ] attendance_tracker.py(109):command_line_parser  :: The file path is: data
+2022-01-14 12:47:50,236 [DEBUG   ] attendance_tracker.py(117):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:47:50,237 [INFO    ] attendance_tracker.py(126):file_processor       :: Adding .csv files in data
+2022-01-14 12:47:50,238 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:47:50,238 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:47:50,241 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:47:50,251 [INFO    ] attendance_tracker.py( 51):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:47:50,301 [INFO    ] attendance_tracker.py( 55):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:47:50,314 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:47:50,318 [INFO    ] attendance_tracker.py( 51):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:47:50,346 [INFO    ] attendance_tracker.py( 55):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:47:50,357 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:47:50,364 [INFO    ] attendance_tracker.py( 51):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:47:50,415 [INFO    ] attendance_tracker.py( 55):build_list           :: End of this file pass. df to carry over
+2022-01-14 12:47:50,465 [INFO    ] attendance_tracker.py( 67):build_list           :: Dataframe:
+          2021-1102  2021-1103  2021-1104
+Email                                   
+azure        False       True       True
+blue          True       True      False
+green         True       True       True
+hazel         True      False      False
+magenta      False      False       True
+orange        True      False      False
+pink         False       True       True
+red           True       True       True
+violet       False       True       True
+yellow        True       True       True
+2022-01-14 12:48:56,740 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:48:56,742 [DEBUG   ] attendance_tracker.py(101):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:48:56,742 [INFO    ] attendance_tracker.py(107):command_line_parser  :: The file path is: data
+2022-01-14 12:48:56,742 [DEBUG   ] attendance_tracker.py(115):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:48:56,742 [INFO    ] attendance_tracker.py(124):file_processor       :: Adding .csv files in data
+2022-01-14 12:48:56,742 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:48:56,743 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:48:56,744 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:48:56,747 [DEBUG   ] attendance_tracker.py( 50):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:48:56,763 [INFO    ] attendance_tracker.py( 54):build_list           :: End of this file pass. df to carry over
+    Email 2021-1103
+0     red      True
+1    blue      True
+2  yellow      True
+3   green      True
+4    pink      True
+5   azure      True
+6  violet      True
+2022-01-14 12:48:56,777 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:48:56,780 [DEBUG   ] attendance_tracker.py( 50):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:48:56,795 [INFO    ] attendance_tracker.py( 54):build_list           :: End of this file pass. df to carry over
+     Email 2021-1103 2021-1104
+0      red      True       NaN
+1     blue      True       NaN
+2   yellow      True       NaN
+3    green      True       NaN
+4     pink      True       NaN
+5    azure      True       NaN
+6   violet      True       NaN
+0      red       NaN      True
+1   yellow       NaN      True
+2    green       NaN      True
+3     pink       NaN      True
+4    azure       NaN      True
+5   violet       NaN      True
+6  magenta       NaN      True
+2022-01-14 12:48:56,814 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:48:56,817 [DEBUG   ] attendance_tracker.py( 50):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:48:56,833 [INFO    ] attendance_tracker.py( 54):build_list           :: End of this file pass. df to carry over
+     Email 2021-1103 2021-1104 2021-1102
+0      red      True       NaN       NaN
+1     blue      True       NaN       NaN
+2   yellow      True       NaN       NaN
+3    green      True       NaN       NaN
+4     pink      True       NaN       NaN
+5    azure      True       NaN       NaN
+6   violet      True       NaN       NaN
+0      red       NaN      True       NaN
+1   yellow       NaN      True       NaN
+2    green       NaN      True       NaN
+3     pink       NaN      True       NaN
+4    azure       NaN      True       NaN
+5   violet       NaN      True       NaN
+6  magenta       NaN      True       NaN
+0      red       NaN       NaN      True
+1     blue       NaN       NaN      True
+2   orange       NaN       NaN      True
+3   yellow       NaN       NaN      True
+4    green       NaN       NaN      True
+5      red       NaN       NaN      True
+6    hazel       NaN       NaN      True
+2022-01-14 12:48:56,869 [INFO    ] attendance_tracker.py( 65):build_list           :: Dataframe:
+          2021-1102  2021-1103  2021-1104
+Email                                   
+azure        False       True       True
+blue          True       True      False
+green         True       True       True
+hazel         True      False      False
+magenta      False      False       True
+orange        True      False      False
+pink         False       True       True
+red           True       True       True
+violet       False       True       True
+yellow        True       True       True
+2022-01-14 12:50:03,894 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:50:03,895 [DEBUG   ] attendance_tracker.py(101):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:50:03,896 [INFO    ] attendance_tracker.py(107):command_line_parser  :: The file path is: data
+2022-01-14 12:50:03,896 [DEBUG   ] attendance_tracker.py(115):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:50:03,896 [INFO    ] attendance_tracker.py(124):file_processor       :: Adding .csv files in data
+2022-01-14 12:50:03,896 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:50:03,896 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:50:03,898 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:50:03,900 [DEBUG   ] attendance_tracker.py( 50):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:50:03,918 [INFO    ] attendance_tracker.py( 54):build_list           :: End of this file pass. df to carry over
+    Email 2021-1103
+0     red      True
+1    blue      True
+2  yellow      True
+3   green      True
+4    pink      True
+5   azure      True
+6  violet      True
+2022-01-14 12:50:03,933 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:50:03,936 [DEBUG   ] attendance_tracker.py( 50):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:50:03,951 [INFO    ] attendance_tracker.py( 54):build_list           :: End of this file pass. df to carry over
+     Email 2021-1103 2021-1104
+0      red      True       NaN
+1     blue      True       NaN
+2   yellow      True       NaN
+3    green      True       NaN
+4     pink      True       NaN
+5    azure      True       NaN
+6   violet      True       NaN
+0      red       NaN      True
+1   yellow       NaN      True
+2    green       NaN      True
+3     pink       NaN      True
+4    azure       NaN      True
+5   violet       NaN      True
+6  magenta       NaN      True
+2022-01-14 12:50:03,970 [INFO    ] attendance_tracker.py( 41):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:50:03,972 [DEBUG   ] attendance_tracker.py( 50):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:50:03,988 [INFO    ] attendance_tracker.py( 54):build_list           :: End of this file pass. df to carry over
+     Email 2021-1103 2021-1104 2021-1102
+0      red      True       NaN       NaN
+1     blue      True       NaN       NaN
+2   yellow      True       NaN       NaN
+3    green      True       NaN       NaN
+4     pink      True       NaN       NaN
+5    azure      True       NaN       NaN
+6   violet      True       NaN       NaN
+0      red       NaN      True       NaN
+1   yellow       NaN      True       NaN
+2    green       NaN      True       NaN
+3     pink       NaN      True       NaN
+4    azure       NaN      True       NaN
+5   violet       NaN      True       NaN
+6  magenta       NaN      True       NaN
+0      red       NaN       NaN      True
+1     blue       NaN       NaN      True
+2   orange       NaN       NaN      True
+3   yellow       NaN       NaN      True
+4    green       NaN       NaN      True
+5      red       NaN       NaN      True
+6    hazel       NaN       NaN      True
+2022-01-14 12:50:04,023 [INFO    ] attendance_tracker.py( 65):build_list           :: All done here, ready to send back:
+          2021-1102  2021-1103  2021-1104
+Email                                   
+azure        False       True       True
+blue          True       True      False
+green         True       True       True
+hazel         True      False      False
+magenta      False      False       True
+orange        True      False      False
+pink         False       True       True
+red           True       True       True
+violet       False       True       True
+yellow        True       True       True
+2022-01-14 12:54:06,811 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:54:06,813 [DEBUG   ] attendance_tracker.py(103):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:54:06,813 [INFO    ] attendance_tracker.py(109):command_line_parser  :: The file path is: data
+2022-01-14 12:54:06,813 [DEBUG   ] attendance_tracker.py(117):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:54:06,813 [INFO    ] attendance_tracker.py(126):file_processor       :: Adding .csv files in data
+2022-01-14 12:54:06,813 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:54:06,814 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:54:06,815 [INFO    ] attendance_tracker.py( 43):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:54:06,818 [DEBUG   ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:54:06,835 [INFO    ] attendance_tracker.py( 56):build_list           :: End of this file pass. df to carry over
+    Email 2021-1103
+0     red      True
+1    blue      True
+2  yellow      True
+3   green      True
+4    pink      True
+5   azure      True
+6  violet      True
+2022-01-14 12:54:06,850 [INFO    ] attendance_tracker.py( 43):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:54:06,853 [DEBUG   ] attendance_tracker.py( 52):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:54:06,868 [INFO    ] attendance_tracker.py( 56):build_list           :: End of this file pass. df to carry over
+     Email 2021-1103 2021-1104
+0      red      True       NaN
+1     blue      True       NaN
+2   yellow      True       NaN
+3    green      True       NaN
+4     pink      True       NaN
+5    azure      True       NaN
+6   violet      True       NaN
+0      red       NaN      True
+1   yellow       NaN      True
+2    green       NaN      True
+3     pink       NaN      True
+4    azure       NaN      True
+5   violet       NaN      True
+6  magenta       NaN      True
+2022-01-14 12:54:06,888 [INFO    ] attendance_tracker.py( 43):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:54:06,891 [DEBUG   ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:54:06,909 [INFO    ] attendance_tracker.py( 56):build_list           :: End of this file pass. df to carry over
+     Email 2021-1103 2021-1104 2021-1102
+0      red      True       NaN       NaN
+1     blue      True       NaN       NaN
+2   yellow      True       NaN       NaN
+3    green      True       NaN       NaN
+4     pink      True       NaN       NaN
+5    azure      True       NaN       NaN
+6   violet      True       NaN       NaN
+0      red       NaN      True       NaN
+1   yellow       NaN      True       NaN
+2    green       NaN      True       NaN
+3     pink       NaN      True       NaN
+4    azure       NaN      True       NaN
+5   violet       NaN      True       NaN
+6  magenta       NaN      True       NaN
+0      red       NaN       NaN      True
+1     blue       NaN       NaN      True
+2   orange       NaN       NaN      True
+3   yellow       NaN       NaN      True
+4    green       NaN       NaN      True
+5      red       NaN       NaN      True
+6    hazel       NaN       NaN      True
+2022-01-14 12:54:06,944 [INFO    ] attendance_tracker.py( 67):build_list           :: All done here, ready to send back:
+          2021-1102  2021-1103  2021-1104
+Email                                   
+azure        False       True       True
+blue          True       True      False
+green         True       True       True
+hazel         True      False      False
+magenta      False      False       True
+orange        True      False      False
+pink         False       True       True
+red           True       True       True
+violet       False       True       True
+yellow        True       True       True
+2022-01-14 12:54:47,873 [INFO    ] attendance_tracker.py( 19):<module>             :: Starting logging
+2022-01-14 12:54:47,877 [DEBUG   ] attendance_tracker.py(101):command_line_parser  :: Here are the args: Namespace(raw_data_file_or_folder='data')
+2022-01-14 12:54:47,877 [INFO    ] attendance_tracker.py(107):command_line_parser  :: The file path is: data
+2022-01-14 12:54:47,878 [DEBUG   ] attendance_tracker.py(115):file_processor       :: file_processor: data of <class 'str'>
+2022-01-14 12:54:47,878 [INFO    ] attendance_tracker.py(124):file_processor       :: Adding .csv files in data
+2022-01-14 12:54:47,879 [INFO    ] attendance_tracker.py( 28):main                 :: path: data
+2022-01-14 12:54:47,880 [INFO    ] attendance_tracker.py( 29):main                 :: files: ['2021-1103_Customer_Cohort_1.csv', '2021-1104_Customer_Cohort_1.csv', '2021-1102_Customer_Cohort_1.csv']
+2022-01-14 12:54:47,882 [INFO    ] attendance_tracker.py( 43):build_list           :: Processing 2021-1103_Customer_Cohort_1.csv
+2022-01-14 12:54:47,885 [DEBUG   ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1103
+0     red       True
+1    blue       True
+2  yellow       True
+3   green       True
+4    pink       True
+5   azure       True
+6  violet       True
+2022-01-14 12:54:47,907 [INFO    ] attendance_tracker.py( 56):build_list           :: End of this file pass. df to carry over
+    Email 2021-1103
+0     red      True
+1    blue      True
+2  yellow      True
+3   green      True
+4    pink      True
+5   azure      True
+6  violet      True
+2022-01-14 12:54:47,924 [INFO    ] attendance_tracker.py( 43):build_list           :: Processing 2021-1104_Customer_Cohort_1.csv
+2022-01-14 12:54:47,927 [DEBUG   ] attendance_tracker.py( 52):build_list           :: New data file
+     Email  2021-1104
+0      red       True
+1   yellow       True
+2    green       True
+3     pink       True
+4    azure       True
+5   violet       True
+6  magenta       True
+2022-01-14 12:54:47,943 [INFO    ] attendance_tracker.py( 56):build_list           :: End of this file pass. df to carry over
+     Email 2021-1103 2021-1104
+0      red      True       NaN
+1     blue      True       NaN
+2   yellow      True       NaN
+3    green      True       NaN
+4     pink      True       NaN
+5    azure      True       NaN
+6   violet      True       NaN
+0      red       NaN      True
+1   yellow       NaN      True
+2    green       NaN      True
+3     pink       NaN      True
+4    azure       NaN      True
+5   violet       NaN      True
+6  magenta       NaN      True
+2022-01-14 12:54:47,964 [INFO    ] attendance_tracker.py( 43):build_list           :: Processing 2021-1102_Customer_Cohort_1.csv
+2022-01-14 12:54:47,966 [DEBUG   ] attendance_tracker.py( 52):build_list           :: New data file
+    Email  2021-1102
+0     red       True
+1    blue       True
+2  orange       True
+3  yellow       True
+4   green       True
+5     red       True
+6   hazel       True
+2022-01-14 12:54:47,983 [INFO    ] attendance_tracker.py( 56):build_list           :: End of this file pass. df to carry over
+     Email 2021-1103 2021-1104 2021-1102
+0      red      True       NaN       NaN
+1     blue      True       NaN       NaN
+2   yellow      True       NaN       NaN
+3    green      True       NaN       NaN
+4     pink      True       NaN       NaN
+5    azure      True       NaN       NaN
+6   violet      True       NaN       NaN
+0      red       NaN      True       NaN
+1   yellow       NaN      True       NaN
+2    green       NaN      True       NaN
+3     pink       NaN      True       NaN
+4    azure       NaN      True       NaN
+5   violet       NaN      True       NaN
+6  magenta       NaN      True       NaN
+0      red       NaN       NaN      True
+1     blue       NaN       NaN      True
+2   orange       NaN       NaN      True
+3   yellow       NaN       NaN      True
+4    green       NaN       NaN      True
+5      red       NaN       NaN      True
+6    hazel       NaN       NaN      True
+2022-01-14 12:54:48,023 [INFO    ] attendance_tracker.py( 67):build_list           :: All done here, ready to send back:
+          2021-1102  2021-1103  2021-1104
+Email                                   
+azure        False       True       True
+blue          True       True      False
+green         True       True       True
+hazel         True      False      False
+magenta      False      False       True
+orange        True      False      False
+pink         False       True       True
+red           True       True       True
+violet       False       True       True
+yellow        True       True       True
