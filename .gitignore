@@ -1,0 +1,7 @@
+*.csv
+/.DS_Store
+/.pytest_cache
+/.vscode
+/venv
+/data
+tempCodeRunnerFile.py
