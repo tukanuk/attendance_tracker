@@ -32,7 +32,7 @@ def fileOpen(filePath, fileList):
     # Drop the Summary Rows
     df = df.dropna()
 
-    # Covert to date
+    # Convert to date
     df["Hour"] = pd.to_datetime(df["Hour"], format="%Y-%m-%d %H:%M:%S")
 
     return df
@@ -60,7 +60,7 @@ def command_line_parser():
     parser.add_argument(
         "raw_data_file_or_folder",
         nargs="?",
-        default="data/2021-1102_Rogers_Cohort.csv",
+        default="data/2021-1102_Customer_Cohort_1.csv",
         type=str,
         metavar="<raw-data-file>",
         help="Include a .csv of a folder containing .csv",
