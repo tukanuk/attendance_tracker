@@ -6,3 +6,4 @@
 /data
 tempCodeRunnerFile.py
 *.pyc
+.env
