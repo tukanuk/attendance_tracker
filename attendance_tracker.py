@@ -3,6 +3,7 @@ import pandas as pd
 import argparse
 import os
 import simplelogging
+import re
 
 # Setup the logging
 log = simplelogging.get_logger(
@@ -45,15 +46,21 @@ def build_list(filePath, fileList):
         # get the col name from the file
         col_name = item.split("_")[0]
 
-        data = pd.read_csv(f"{filePath}/{item}", names=["Email"])
+        try: 
+            data = pd.read_csv(f"{filePath}/{item}", names=["Email"])
 
-        # get attendance for that day
-        data[col_name] = True
-        log.debug("New data file\n%s", data)
+            # get attendance for that day
+            data[col_name] = True
+            log.debug("New data file\n%s", data)
 
-        df = df.append(data)
+            df = df.append(data)
 
-        log.info("End of this file pass. df to carry over\n%s", df)
+            log.info("End of this file pass. df to carry over\n%s", df)
+
+        except:
+            log.error("Couldn't make any sense out of %s. I'm going to skip this.", item)
+            pass
+       
 
     # Groupby email. Max will prefer True
     df = df.groupby(["Email"]).max()
@@ -78,6 +85,7 @@ def csvExport(filePath, df):
     # df["HHU"] = df["HHU"].astype(int)
     # if os.path.isdir(f"{filePath}/results") == False:
     os.makedirs(f"{filePath}/results", exist_ok=True)
+    log.debug("Results in: %s", filePath)
     df.to_csv(f"{filePath}/results/list_{startDate}_to_{endDate}.csv", index=True)
 
 
