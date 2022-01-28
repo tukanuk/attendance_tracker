@@ -23,7 +23,7 @@ log.info("Starting logging")
 def main():
     """Main function"""
 
-    filePath, processing_meeting_attendance_reports = command_line_parser()
+    filePath, is_processing_ms_teams_reports = command_line_parser()
     filePath, fileList = file_processor(filePath)
 
     # log the task parameters
@@ -31,11 +31,11 @@ def main():
     log.info("files: %s", fileList)
     log.info(
         "Processing MeetingAttendanceReports: %s",
-        processing_meeting_attendance_reports,
+        is_processing_ms_teams_reports,
     )
 
-    if processing_meeting_attendance_reports:
-        df = build_list_from_raw(filePath, fileList)
+    if is_processing_ms_teams_reports:
+        df = build_list_from_teams(filePath, fileList)
     else:
         df = build_simple_list(filePath, fileList)
 
@@ -44,7 +44,7 @@ def main():
     # print(df)
 
 
-def build_list_from_raw(filePath, fileList):
+def build_list_from_teams(filePath, fileList):
     """Build an email list from a raw Teams attendance file"""
 
     df = pd.DataFrame()
@@ -53,34 +53,43 @@ def build_list_from_raw(filePath, fileList):
     for item in fileList:
         log.info("Processing %s", item)
 
-        # may need to add a try block here to try utf-16 as well. I seem to be seeing both encodings
-        with open(f"{filePath}/{item}", "r", encoding="utf-8") as fp:
-            curr_file = fp.read()
+        # for some reason some of these files are utf-8 and some are utf-16. Handle both.
+        try:
+            with open(f"{filePath}/{item}", "r", encoding="utf-8") as fp:
+                current_file = fp.read()
+        except UnicodeDecodeError as error:
+            log.error("Not utf-8, trying utf-16. %s", error)
+            with open(f"{filePath}/{item}", "r", encoding="utf-16") as fp:
+                current_file = fp.read()
+            log.info("✅ Opened %s with utf-16 encoding.", item)
+        except Exception as error:
+            log.error("🛑 Can't process %s. Skipping this file. %s", error)
+            pass
 
         # Get the session title
         regex = r"Title\t(.*)\n"
-        matches = re.findall(regex, curr_file)
+        matches = re.findall(regex, current_file)
         session_title = matches[0]
         log.info("Title: %s", session_title)
 
         # Get the session date
         regex = r"Meeting Start Time\t(\d+)/(\d+)/(\d+),"
-        matches = re.findall(regex, curr_file)
+        matches = re.findall(regex, current_file)
         print(matches[0])
         date = f"{matches[0][2]}-{int(matches[0][0]):02}{int(matches[0][1]):02}"
-        log.info("Session dae: %s", date)
+        log.info("Session date: %s", date)
 
         # Get the email addresess
         regex = r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}"
-        matches = re.findall(regex, curr_file, re.IGNORECASE)
+        matches = re.findall(regex, current_file, re.IGNORECASE)
 
         # make lower case
         emails = [x.lower() for x in matches]
         emails.sort()
-        log.debug(emails)
+        # log.debug(emails)
 
         # remove duplicate emails
-        log.info("Original list is %d long.", len(emails))
+        log.debug("Original list is %d long.", len(emails))
         cleaned_emails = []
         for email in emails:
             # looking for user name matches (ignore domain)
@@ -89,14 +98,27 @@ def build_list_from_raw(filePath, fileList):
             if not re.search(rf"{name}", str(cleaned_emails), re.IGNORECASE):
                 cleaned_emails.append(email)
 
-        log.info(
-            "The cleaned and sorted email list is %d emails long and contains: %s",
-            len(cleaned_emails),
-            cleaned_emails,
-        )
+        log.info("This file contains %d unique emails", len(cleaned_emails))
 
         # now add this to the df and do the same things as the other function
+
+        df2 = pd.DataFrame(cleaned_emails, columns=["Email"])
+        df2[date] = True
+
+        # Append to the main df
+
+        df = df.append(df2, ignore_index=True)
+        log.info("[DF] After this round total length is: %d", len(df))
         # return the info for the filename
+
+    # Now lets merge this list down to remove duplicates
+    df = df.groupby(["Email"]).max()
+    df = df.fillna(False)
+
+    # Last step, sort the columns
+    df = df[sorted(df.columns)]
+
+    log.info("After groupby there are %d unique emails", len(df))
 
     return df
 
@@ -120,7 +142,7 @@ def build_simple_list(filePath, fileList):
 
             df = df.append(data)
 
-            log.info("End of this file pass. df to carry over\n%s", df)
+            log.info("End of this file pass.")
 
         except:
             log.error(
@@ -137,7 +159,7 @@ def build_simple_list(filePath, fileList):
     # sort the columns
     df = df[sorted(df.columns)]
 
-    log.info("All done here, ready to send back:\n %s", df)
+    log.info("All done here, ready to send back %s emails", len(df))
 
     return df
 
@@ -170,11 +192,11 @@ def command_line_parser():
     )
 
     parser.add_argument(
-        "-r",
-        "--raw",
+        "-t",
+        "--teams",
         action="store_true",
         default=False,
-        help="Process unaltered meetingAttendanceReport.csv files",
+        help="Process unaltered MS Teams meetingAttendanceReport.csv files",
     )
 
     # parser.add_argument("-hu", "--hostunits", required=True,
@@ -183,7 +205,7 @@ def command_line_parser():
     log.debug(f"Here are the args: {args}")
 
     filePath = args.raw_data_file_or_folder
-    processing_meeting_Attendance_Reports = args.raw
+    processing_meeting_Attendance_Reports = args.teams
 
     # assert filePath == "data/2021-1102_Customer_Cohort_1.csv"
 
@@ -208,11 +230,9 @@ def file_processor(filePath):
         with os.scandir(filePath) as dirs:
             for entry in dirs:
                 if entry.name.endswith(".csv"):
-                    # print(entry.name)x
                     fileList.append(entry.name)
         if len(fileList) == 0:
             raise Exception("No .csv files in this directory")
-        # print(fileList)
     else:
         raise Exception("Couldn't find a valid file from the path provided")
 
