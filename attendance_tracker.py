@@ -14,7 +14,7 @@ log = simplelogging.get_logger(
     file_level=simplelogging.DEBUG,
 )
 
-for _ in range(15):
+for _ in range(2):
     print()
 
 log.info("Starting logging")
@@ -30,9 +30,10 @@ def main():
     log.info("path: %s", filePath)
     log.info("files: %s", fileList)
     log.info(
-        "Processing MeetingAttendanceReports: %s",
+        "Processing MeetingAttendanceReports: %s\n",
         is_processing_ms_teams_reports,
     )
+    log.info("")
 
     if is_processing_ms_teams_reports:
         df = build_list_from_teams(filePath, fileList)
@@ -40,8 +41,6 @@ def main():
         df = build_simple_list(filePath, fileList)
 
     csvExport(filePath, df)
-
-    # print(df)
 
 
 def build_list_from_teams(filePath, fileList):
@@ -51,12 +50,13 @@ def build_list_from_teams(filePath, fileList):
     df["Email"] = ""
 
     for item in fileList:
-        log.info("Processing %s", item)
+        log.info("===== Processing %s ======", item)
 
         # for some reason some of these files are utf-8 and some are utf-16. Handle both.
         try:
             with open(f"{filePath}/{item}", "r", encoding="utf-8") as fp:
                 current_file = fp.read()
+            log.info("✅ Opened %s with utf-8 encoding.", item)
         except UnicodeDecodeError as error:
             log.error("Not utf-8, trying utf-16. %s", error)
             with open(f"{filePath}/{item}", "r", encoding="utf-16") as fp:
@@ -69,13 +69,19 @@ def build_list_from_teams(filePath, fileList):
         # Get the session title
         regex = r"Title\t(.*)\n"
         matches = re.findall(regex, current_file)
-        session_title = matches[0]
+
+        try:
+            session_title = matches[0]
+        except IndexError as error:
+            log.error("🛑 %s is not a recognized Teams Attendance files. Skipped", item)
+            continue
+
         log.info("Title: %s", session_title)
 
         # Get the session date
         regex = r"Meeting Start Time\t(\d+)/(\d+)/(\d+),"
         matches = re.findall(regex, current_file)
-        print(matches[0])
+        # print(matches[0])
         date = f"{matches[0][2]}-{int(matches[0][0]):02}{int(matches[0][1]):02}"
         log.info("Session date: %s", date)
 
@@ -109,6 +115,7 @@ def build_list_from_teams(filePath, fileList):
 
         df = df.append(df2, ignore_index=True)
         log.info("[DF] After this round total length is: %d", len(df))
+        log.info("")
         # return the info for the filename
 
     # Now lets merge this list down to remove duplicates
@@ -117,7 +124,8 @@ def build_list_from_teams(filePath, fileList):
 
     # Last step, sort the columns
     df = df[sorted(df.columns)]
-
+    log.info("")
+    log.info("===== SUMMARY ======")
     log.info("After groupby there are %d unique emails", len(df))
 
     return df
@@ -168,13 +176,12 @@ def csvExport(filePath, df):
     """CSV Export & some summary statistics"""
     startDate = df.columns[0]
     endDate = df.columns[-1]
-    print(f"From: {startDate} to {endDate}")
-    # df["Excess"] = df["Excess"].astype(int)
-    # df["HHU"] = df["HHU"].astype(int)
-    # if os.path.isdir(f"{filePath}/results") == False:
+    log.info("Includes meetings between %s and %s", startDate, endDate)
+
     os.makedirs(f"{filePath}/results", exist_ok=True)
-    log.debug("Results in: %s", filePath)
-    df.to_csv(f"{filePath}/results/list_{startDate}_to_{endDate}.csv", index=True)
+    fileName = f"attendance_from_{startDate}_to_{endDate}.csv"
+    log.info("Results saved in: %s/results/%s", filePath, fileName)
+    df.to_csv(f"{filePath}results/{fileName}", index=True)
 
 
 def command_line_parser():
@@ -199,15 +206,11 @@ def command_line_parser():
         help="Process unaltered MS Teams meetingAttendanceReport.csv files",
     )
 
-    # parser.add_argument("-hu", "--hostunits", required=True,
-    #                     help="The account host unit limit")
     args = parser.parse_args()
     log.debug(f"Here are the args: {args}")
 
     filePath = args.raw_data_file_or_folder
     processing_meeting_Attendance_Reports = args.teams
-
-    # assert filePath == "data/2021-1102_Customer_Cohort_1.csv"
 
     log.info(f"The file path is: {filePath}")
 
