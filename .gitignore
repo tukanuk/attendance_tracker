@@ -7,4 +7,5 @@
 tempCodeRunnerFile.py
 *.pyc
 .env
-/logs
+/logs/*
+*.log
