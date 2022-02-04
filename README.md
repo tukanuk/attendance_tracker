@@ -10,7 +10,7 @@ Output is a `/results/attendance_from_{startDate}_to_{endDate}.csv` csv file in 
 
 These files can be opened in a spreadsheet and with some basic _conditional formatting_ you have a nice looking attendance report.
 
-![Sample attendance report](images/sample_attendance_report.png)
+![Sample attendance report](images/sample_attendance_reports.png)
 
 This example covers 22 meetings and over 350 participants.
 
@@ -38,7 +38,7 @@ optional arguments:
 - [ ] Trim requirements (lots of dev requirements currently included).
 - [ ] Add poetry dependency management
 - [ ] 🐞 Fix some cross platform issues. There are directory naming issues on Windows systems
-- [ ] Move this list to the issue tracker and create a Project. 
+- [ ] Move this list to the issue tracker and create a Project.
 
 ## Future Updates
 
