@@ -23,11 +23,13 @@ Build an attendance list
 
 positional arguments:
   <raw-data-file-or-folder>
-                        Include a .csv file or a folder containing .csv files
+                        Include a .csv file or a folder containing .csv
+                        files
 
 optional arguments:
   -h, --help            show this help message and exit
-  -t, --teams           Process unaltered MS Teams meetingAttendanceReport.csv files
+  -t, --teams           Process unaltered MS Teams
+                        meetingAttendanceReport.csv files
 ```
 
 ## Work in Progress
