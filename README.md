@@ -10,7 +10,7 @@ Output is a `/results/attendance_from_{startDate}_to_{endDate}.csv` csv file in 
 
 These files can be opened in a spreadsheet and with some basic _conditional formatting_ you have a nice looking attendance report.
 
-![Sample attendance report](images/sample_attendance_reports.png)
+![Sample attendance report](img/sample_attendance_reports.png)
 
 This example covers 22 meetings and over 350 participants.
 
