@@ -35,7 +35,8 @@ optional arguments:
 ## Work in Progress
 
 - [ ] Flesh out README.md
-- [ ] Trim requirements
+- [ ] Trim requirements (lots of dev requirements currently included).
+- [ ] Add poetry dependancy management
 
 ## Future Updates
 
@@ -45,3 +46,4 @@ optional arguments:
 - [ ] Provide date format customization in the config file
 - [ ] Add team/cohort to the parse and optionally produce cohort reports
 - [ ] Add support for an option metadata file to include information about meeting topics. Could also provide an option to take meeting topic from meeting name if user indicates that meeting name is useful
+- [ ] Add a flag for the current logging verbose output. By default, the output should be a lot less chatty 🤫.
