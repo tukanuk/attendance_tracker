@@ -13,4 +13,5 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Allows the settings of default path for the attendance report. Not currently implemented
 attendance_report_path = os.getenv("ATTENDANCE_REPORT_PATH")
