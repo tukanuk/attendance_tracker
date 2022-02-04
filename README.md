@@ -34,9 +34,11 @@ optional arguments:
 
 ## Work in Progress
 
-- [ ] Flesh out README.md
+- [x] Flesh out README.md
 - [ ] Trim requirements (lots of dev requirements currently included).
-- [ ] Add poetry dependancy management
+- [ ] Add poetry dependency management
+- [ ] 🐞 Fix some cross platform issues. There are directory naming issues on Windows systems
+- [ ] Move this list to the issue tracker and create a Project. 
 
 ## Future Updates
 
