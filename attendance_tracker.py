@@ -192,10 +192,10 @@ def command_line_parser():
     parser.add_argument(
         "raw_data_file_or_folder",
         nargs="?",
-        default="data/2021-1102_Customer_Cohort_1.csv",
+        # default="data/2021-1102_Customer_Cohort_1.csv",
         type=str,
-        metavar="<raw-data-file>",
-        help="Include a .csv of a folder containing .csv",
+        metavar="<raw-data-file-or-folder>",
+        help="Include a .csv file or a folder containing .csv files",
     )
 
     parser.add_argument(
